@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-str3 = "Python School, object-oriented programming with Python!"
-print(str3[15:48] + str3[0:6])
-
-
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+print(str)
+print(str[15:48] + str[0:6])
