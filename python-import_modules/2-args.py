@@ -6,13 +6,9 @@ if __name__ == "__main__":
 
     if count == 0:
         print("0 arguments.")
-    elif count == 1:
-        print("1 arguments:")
-        print("1: Hello")
+    # elif count == 1:
+    #     print("1 arguments:")
     else:
         print("{} arguments:".format(count))
     for i in range(count):
-        if count == 1:
-            break
-        else:
-            print("{}: {}".format(i + 1, arguments[i]))
+        print("{}: {}".format(i + 1, arguments[i]))
