@@ -11,5 +11,8 @@ if __name__ == "__main__":
         print("1: Hello")
     else:
         print("{} arguments:".format(count))
-    for i+1 in range(count):
-        print("{}: {}".format(i + 1, arguments[i]))
+    for i in range(count):
+        if count == 1:
+            break
+        else:
+            print("{}: {}".format(i + 1, arguments[i]))
