@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """Module that defines a Rectangle class."""
- 
- 
+
+
 class Rectangle:
     """An empty class that defines a rectangle."""
-    
+
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
- 
+
         Args:
             width (int): The width of the rectangle, defaults to 0.
             height (int): The height of the rectangle, defaults to 0.
@@ -18,19 +18,19 @@ class Rectangle:
     @property
     def width(self):
         """Get the width of the rectangle.
- 
+
         Returns:
             int: The width of the rectangle.
         """
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         """Set the width of the rectangle with validation.
- 
+
         Args:
             value (int): The new width value.
- 
+
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.
@@ -44,19 +44,19 @@ class Rectangle:
     @property
     def height(self):
         """Get the height of the rectangle.
- 
+
         Returns:
             int: The height of the rectangle.
         """
         return self.__height
- 
+
     @height.setter
     def height(self, value):
         """Set the height of the rectangle with validation.
- 
+
         Args:
             value (int): The new height value.
- 
+
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.

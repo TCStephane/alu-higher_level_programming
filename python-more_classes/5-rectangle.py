@@ -84,10 +84,10 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
-    
+
     def __str__(self):
         """Return a printable string of the rectangle using # characters.
- 
+
         Returns:
             str: The rectangle as a string, or empty string if size is 0.
         """
@@ -97,15 +97,15 @@ class Rectangle:
         for i in range(self.__height):
             rows.append("#" * self.__width)
         return "\n".join(rows)
-    
+
     def __repr__(self):
         """Return an official string representation of the rectangle.
- 
+
         Returns:
             str: A string that can recreate the rectangle using eval().
         """
         return "Rectangle({}, {})".format(self.__width, self.__height)
-    
+
     def __del__(self):
         """Print a message when a Rectangle instance is deleted."""
         print("Bye rectangle...")
